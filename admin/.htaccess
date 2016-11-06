@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /admin
+RewriteRule ^(.*)$ index_admin.php
+AuthType Basic
+AuthUserFile .htpasswd
+Require valid-user

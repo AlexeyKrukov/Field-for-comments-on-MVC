@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /user
+RewriteRule ^(.*)$ index_user.php
